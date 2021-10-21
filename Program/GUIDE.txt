@@ -1,21 +1,21 @@
-Programmet ligger i mappen kaldet PROGRAM
+Programmet ligger i mappen kaldet "PROGRAM"
 
-1. Du starter med at lægge de billeder du vil have lavet om til en GIF ind i mappen kaldt Images to GIF
+1. Du starter med at lægge de billeder du vil have lavet om til en GIF ind i mappen kaldt "Images to GIF"
 
-2. Derefter giver du GIF'en de rigtige settings. Dette kan du gøre i filen GIFSETTINGS
+2. Derefter giver du GIF'en de rigtige settings. Dette kan du gøre i filen "GIFSETTINGS"
 
-i GIFSETTINGS skal du have følgende:
-- Et navn
-- En duration(tid mellem hvert billede. Skal skrives i millisekunder)
-- En loop setting(fortæller GIF'en hvor mange gange den skal køre. Dette tal kan være fra 0 til uendelig. Hvis sat til 1 vil GIF'en blive vist én gang, hvis 2 så to gange, 
-  osv. Hvis den derimod bliver sat til 0 vil den forsætte uendeligt).
+"GIFSETTINGS" skal have følgende elementer:
+- Et navn.
+- En duration. (tid mellem hvert billede. Skal skrives i millisekunder)
+- En loop setting. (fortæller GIF'en hvor mange gange den skal køre. Dette tal kan være fra 0 til uendelig. Hvis sat til 1 vil GIF'en blive vist én gang, hvis 2 så to gange, 
+  osv. Hvis den derimod bliver sat til 0 vil den forsætte uendeligt (default indstillingen)).
 
-3. Til sidst kører du bare filen der er kaldt RUN. 
+3. Til sidst kører du bare Python filen der er kaldt "RUN". 
 
 
 Ekstra informationer:
 1. Dette program har en begrænsning på hvor store filer den kan lave. Da jeg testede programmet kunne den ikke lave filer der indeholdte 25 billeder 
    med 1920x1080 pixels. Har ikke fundet den præcise grænse endnu.
-2. Det første billede i mappen Images to GIF vil bestemme GIF'ens størrelse.
+2. Det første billede i mappen "Images to GIF" vil bestemme GIF'ens størrelse.
 3. navnene på billederne i mappen Images to GIF er ligegyldige.
 4. Programmet kan tage både .jpg og .png billeder, samt blandinger af de to
